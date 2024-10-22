@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 </script>
 <template>
-  <v-container width="70%" min-width="300px" fluid>
+  <v-container class="w-lg-75 d-flex align-center justify-center" min-width="300px" fluid>
     <section class="d-flex flex-column justify-center align-center pt-8 mb-6">
       <div class="px-0 text-justify text-wrap" style="width: 100%;">
         <TitleH1
