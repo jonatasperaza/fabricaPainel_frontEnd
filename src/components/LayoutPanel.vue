@@ -27,6 +27,7 @@ onMounted(() => {
   window.addEventListener("resize", () => {
     screenWidth.value = window.innerWidth;
   });
+  screenWidth.value = window.innerWidth;
 });
 </script>
 <template>
@@ -69,13 +70,13 @@ onMounted(() => {
     <v-app-bar v-else flat>
       <v-container>
         <v-row align="center" class="pa-6 mt-4" justify-space-around>
-          <v-col v-if="screenWidth > 380">
-            <img v-if="screenWidth >= 450" alt="Fabrica Painel" src="@/assets/logo.png" @click="$router.push('/')"
+          <v-col v-if="screenWidth > 580">
+            <img v-if="screenWidth >= 580" alt="Fabrica Painel" src="@/assets/logo.png" @click="$router.push('/')"
               class="cursor-pointer" />
             <img v-else alt="Fabrica Painel" src="@/assets/logo_mini.png" @click="$router.push('/')"
               class="cursor-pointer" />
           </v-col>
-          <v-col class="d-flex justify-end" style="max-width: 300px; width: 40%">
+          <v-col class="d-flex justify-end ml-5" :class="{'justify-items-start': screenWidth > 580}" style=" width: 35%">
             <div>
               <v-menu activator="parent">
                 <!-- @vue-ignore -->
@@ -103,8 +104,8 @@ onMounted(() => {
                 <v-icon>mdi-login</v-icon>
               </v-btn>
 
-              <v-btn v-else class="d-flex ml-4" color="primary" rounded="xl" variant="flat" @click="logout">
-                <p class="d-inline-block text-truncate" style="max-width: 300px">
+              <v-btn v-else class="d-flex ml-4"  color="primary" rounded="xl" variant="flat" @click="logout">
+                <p class="d-inline-block text-truncate mr-2" style="max-width: 310px" v-if="screenWidth > 380">
                   {{ authStore.user.name }}
                 </p>
                 <v-icon color="red">mdi-logout</v-icon>
@@ -114,7 +115,7 @@ onMounted(() => {
         </v-row>
       </v-container>
     </v-app-bar>
-    <v-main>
+    <v-main :class="{'pt-4' : screenWidth < 580}">
       <slot />
     </v-main>
     <footer class="pt-16 pb-2 px-6">

@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 my-16 bg-grey-darken-4">
+  <section class="py-16 my-16 bg-grey-darken-4" :class="{ 'pt-0 pb-0' : screenWidth < 700}">
     <div class="py-16">
       <v-container class="w-lg-75" fluid>
         <TitleH1 text="Edições anteriores" />
@@ -130,9 +130,14 @@
   const model = ref(null)
 
   const { fetchCurrentEdition, fetchEditions, state } = useEdition()
+  const screenWidth = ref(0);
 
   onMounted(() => {
     fetchEditions()
     fetchCurrentEdition()
+    window.addEventListener("resize", () => {
+      screenWidth.value = window.innerWidth;
+    });
+    screenWidth.value = window.innerWidth;
   })
 </script>

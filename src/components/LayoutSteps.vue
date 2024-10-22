@@ -1,6 +1,6 @@
 <template>
   <main class="w-100 h-100 d-flex justify-center align-center relative pt-16">
-    <v-container class="w-75" :class="props.size">
+    <v-container :class="[props.size, {'w-75': screenWidth > 500}]">
       <div class="position-absolute top-0 left-0 pa-8">
         <BackButton />
       </div>

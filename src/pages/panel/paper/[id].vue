@@ -206,6 +206,14 @@ onMounted(async () => {
     grades.value.push(0);
   }
 });
+const screenWidth = ref(0);
+
+onMounted(() => {
+  window.addEventListener("resize", () => {
+    screenWidth.value = window.innerWidth;
+  });
+  screenWidth.value = window.innerWidth;
+});
 </script>
 
 <template>
