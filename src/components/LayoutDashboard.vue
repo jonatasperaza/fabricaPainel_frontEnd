@@ -11,7 +11,7 @@
 
       <v-spacer />
       <p class="px-2">
-        {{ authStore.user.name }}
+        {{ authStore.user.name.split(' ').length >= 4 ? ( authStore.user.name.split(' ')[0] + ' ' + authStore.user.name.split(' ')[1]) : authStore.user.name }}
       </p>
       <v-btn class="rounded-xl justify-center" color="red" icon @click="logout()">
         <v-icon size="small"> mdi-logout </v-icon>
