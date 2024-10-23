@@ -48,7 +48,7 @@
             <strong><a href="https://github.com/RafaelBochi" target="_blank">Rafael Bochi Barros,</a></strong>
             <strong><a href="https://github.com/Hiansdt" target="_blank">Vinícius Nilo Hiansdt,</a></strong>
           </li>
-          <li>Analista de Requisitos: <strong><a href="https://github.com/eduardo-da-silva" target="_blank">Prof. Fábio Longo de Moura</a></strong></li>
+          <li>Analista de Requisitos: <strong><a href="https://github.com/ldmfabio" target="_blank">Prof. Fábio Longo de Moura</a></strong></li>
           <li>Orientadores do Projeto: Professores <strong><a href="https://github.com/ldmfabio" target="_blank">Fábio Longo de Moura</a></strong> e <strong><a href="/">Eduardo da Silva</a></strong></li>
         </ul>
       </div>

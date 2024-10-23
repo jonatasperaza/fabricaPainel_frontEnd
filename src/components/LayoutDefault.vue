@@ -96,7 +96,7 @@
 
               <v-btn v-else class="d-flex ml-4"  color="primary" rounded="xl" variant="flat" @click="logout">
                 <p class="d-inline-block text-truncate mr-2" style="max-width: 310px" v-if="screenWidth > 360">
-                  {{ authStore.user.name }}
+                  {{ authStore.user.name.split(' ').length >= 4 ? ( authStore.user.name.split(' ')[0] + ' ' + authStore.user.name.split(' ')[1]) : authStore.user.name }}
                 </p>
                 <v-icon color="red">mdi-logout</v-icon>
               </v-btn>

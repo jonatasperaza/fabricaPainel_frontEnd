@@ -1,81 +1,43 @@
-# Vuetify (Default)
+# Semana de Ensino, Pesquisa e Extensão
 
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
+A Semana de Ensino, Pesquisa e Extensão é um evento central em nossa instituição, promovendo a socialização do conhecimento e a divulgação de pesquisas regionais e nacionais. O evento conta com a participação de palestrantes convidados, brasileiros e estrangeiros, e a realização de diversas atividades, como congressos, cursos, palestras e painéis de integração de conhecimentos. As áreas contempladas incluem Medicina Veterinária, Informática, Licenciaturas e muitos outros temas acadêmicos.
 
-## ❗️ Important Links
+## Excelência e Imparcialidade
 
-- 📄 [Docs](https://vuetifyjs.com/)
-- 🚨 [Issues](https://issues.vuetifyjs.com/)
-- 🏬 [Store](https://store.vuetifyjs.com/)
-- 🎮 [Playground](https://play.vuetifyjs.com/)
-- 💬 [Discord](https://community.vuetifyjs.com)
+Nosso sistema visa a excelência e imparcialidade na avaliação de trabalhos, garantindo uma avaliação diversificada e de alta qualidade. O Painel de Integração da SEPE possibilita a escolha aleatória de alunos orientadores e avaliadores, promovendo uma diversidade nas avaliações. Os participantes têm a oportunidade de compartilhar seus interesses acadêmicos e, ao final do processo, podem acessar as avaliações dos seus trabalhos.
 
-## 💿 Install
+## Facilidade na Submissão de Trabalhos
 
-Set up your project using your preferred package manager. Use the corresponding command to install the dependencies:
+Este portal foi desenvolvido para facilitar a submissão de trabalhos de ensino, pesquisa e extensão, promovendo o desenvolvimento colaborativo entre estudantes, professores e a comunidade. Aqui, você pode submeter seus projetos, colaborar em diversas áreas e contribuir para o avanço da ciência e da sociedade, tanto dentro quanto fora do campus.
 
-| Package Manager                                                | Command        |
-|---------------------------------------------------------------|----------------|
-| [yarn](https://yarnpkg.com/getting-started)                   | `yarn install` |
-| [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
-| [pnpm](https://pnpm.io/installation)                          | `pnpm install` |
-| [bun](https://bun.sh/#getting-started)                        | `bun install`  |
+## Integração e Inovação
 
-After completing the installation, your environment is ready for Vuetify development.
+A integração é uma parte central do nosso compromisso com a inovação, a educação e o desenvolvimento acadêmico. Junte-se a nós nesta iniciativa e ajude a valorizar o conhecimento em diferentes áreas do saber.
 
-## ✨ Features
+## Equipe de Desenvolvimento
 
-- 🖼️ **Optimized Front-End Stack**: Leverage the latest Vue 3 and Vuetify 3 for a modern, reactive UI development experience. [Vue 3](https://v3.vuejs.org/) | [Vuetify 3](https://vuetifyjs.com/en/)
-- 🗃️ **State Management**: Integrated with [Pinia](https://pinia.vuejs.org/), the intuitive, modular state management solution for Vue.
-- 🚦 **Routing and Layouts**: Utilizes Vue Router for SPA navigation and vite-plugin-vue-layouts for organizing Vue file layouts. [Vue Router](https://router.vuejs.org/) | [vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts)
-- 💻 **Enhanced Development Experience**: Benefit from TypeScript's static type checking and the ESLint plugin suite for Vue, ensuring code quality and consistency. [TypeScript](https://www.typescriptlang.org/) | [ESLint Plugin Vue](https://eslint.vuejs.org/)
-- ⚡ **Next-Gen Tooling**: Powered by Vite, experience fast cold starts and instant HMR (Hot Module Replacement). [Vite](https://vitejs.dev/)
-- 🧩 **Automated Component Importing**: Streamline your workflow with unplugin-vue-components, automatically importing components as you use them. [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
-- 🛠️ **Strongly-Typed Vue**: Use vue-tsc for type-checking your Vue components, and enjoy a robust development experience. [vue-tsc](https://github.com/johnsoncodehk/volar/tree/master/packages/vue-tsc)
+Este portal foi desenvolvido pela [Fábrica de Software](https://github.com/fabricadesoftware-ifc) do Instituto Federal Catarinense - Campus Araquari, uma iniciativa que aproxima os alunos do mercado de trabalho, proporcionando a eles a oportunidade de desenvolver soluções reais para iniciativas públicas e privadas. Em mais de 10 anos de atuação, a Fábrica tem sido essencial para os alunos do curso técnico em Informática e do ensino superior, com mais de 200 estudantes adquirindo experiência prática e relevante para suas carreiras.
 
-These features are curated to provide a seamless development experience from setup to deployment, ensuring that your Vuetify application is both powerful and maintainable.
+### Desenvolvedores Frontend:
+- [Mateus Lopes Albano](https://github.com/mateus-lopes)
+- [Cauã Vinícius Silva](https://github.com/Caussz)
+- [Jonatas Silva Peraza](https://github.com/jonatasperaza)
+- [Luan Silva](https://github.com/luansilva25)
+- [Rafael Bochi Barros](https://github.com/RafaelBochi)
+- [Vinícius Nilo Hiansdt](https://github.com/Hiansdt)
 
-## 💡 Usage
+### Desenvolvedores Backend:
+- [Lucas Gabriel Antonete](https://github.com/LucasGabrielAntonete)
+- [Rafael Bochi Barros](https://github.com/RafaelBochi)
+- [Vinícius Nilo Hiansdt](https://github.com/Hiansdt)
 
-This section covers how to start the development server and build your project for production.
+### Analista de Requisitos:
+- [Prof. Fábio Longo de Moura](https://github.com/ldmfabio)
 
-### Starting the Development Server
+### Orientadores do Projeto:
+- [Prof. Fábio Longo de Moura](https://github.com/ldmfabio)
+- [Prof. Eduardo da Silva](https://github.com/eduardo-da-silva)
 
-To start the development server with hot-reload, run the following command. The server will be accessible at [http://localhost:3000](http://localhost:3000):
+---
 
-```bash
-yarn dev
-```
-
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-> Add NODE_OPTIONS='--no-warnings' to suppress the JSON import warnings that happen as part of the Vuetify import mapping. If you are on Node [v21.3.0](https://nodejs.org/en/blog/release/v21.3.0) or higher, you can change this to NODE_OPTIONS='--disable-warning=5401'. If you don't mind the warning, you can remove this from your package.json dev script.
-
-### Building for Production
-
-To build your project for production, use:
-
-```bash
-yarn build
-```
-
-(Repeat for npm, pnpm, and bun with respective commands.)
-
-Once the build process is completed, your application will be ready for deployment in a production environment.
-
-## 💪 Support Vuetify Development
-
-This project is built with [Vuetify](https://vuetifyjs.com/en/), a UI Library with a comprehensive collection of Vue components. Vuetify is an MIT licensed Open Source project that has been made possible due to the generous contributions by our [sponsors and backers](https://vuetifyjs.com/introduction/sponsors-and-backers/). If you are interested in supporting this project, please consider:
-
-- [Requesting Enterprise Support](https://support.vuetifyjs.com/)
-- [Sponsoring John on Github](https://github.com/users/johnleider/sponsorship)
-- [Sponsoring Kael on Github](https://github.com/users/kaelwd/sponsorship)
-- [Supporting the team on Open Collective](https://opencollective.com/vuetify)
-- [Becoming a sponsor on Patreon](https://www.patreon.com/vuetify)
-- [Becoming a subscriber on Tidelift](https://tidelift.com/subscription/npm/vuetify)
-- [Making a one-time donation with Paypal](https://paypal.me/vuetify)
-
-## 📑 License
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016-present Vuetify, LLC
+2024 — FabricaPainel
